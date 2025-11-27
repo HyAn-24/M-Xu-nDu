@@ -54,8 +54,8 @@ body {
     position: absolute;
     left: 20px;
     bottom: 0;
-    width: 430px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     filter: drop-shadow(0 0 6px #ff6cf9);
 }
 
@@ -63,8 +63,8 @@ body {
     position: absolute;
     right: 30px;
     top: 160px;
-    width: 300px;
-    height: 452px;
+    width: 500px;
+    height: 652px;
     filter: drop-shadow(0 0 6px #fffb7a);
 }
 
