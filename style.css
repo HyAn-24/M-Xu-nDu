@@ -1,4 +1,3 @@
-/* Fonts + reset */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Navbar */
 .navbar {
     position: absolute;
     top: 20px;
@@ -39,12 +37,11 @@ body {
     cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(image/Thêm\ tiêu\ đề.png);
+    background-image: url(image/background.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -53,7 +50,6 @@ body {
     text-align: center;
 }
 
-/* Images */
 .lotus-left {
     position: absolute;
     left: 20px;
@@ -72,7 +68,6 @@ body {
     filter: drop-shadow(0 0 6px #fffb7a);
 }
 
-/* Text */
 .sub-title {
     font-size: 50px;
     font-weight: 700;
@@ -90,7 +85,6 @@ body {
      color: rgb(8, 7, 7);
 }
 
-/* Labels */
 .labels {
     display: flex;
     gap: 15px;
@@ -117,7 +111,6 @@ body {
     background: #ffffff;
 }
 
-/* Responsiveness */
 @media(max-width: 768px) {
     .main-title {
         font-size: 48px;
@@ -135,7 +128,6 @@ body {
         width: 150px;
     }
 }
-/* About Section */
 .about {
 position: relative;
     width: 100%;
@@ -158,7 +150,6 @@ position: relative;
     gap: 80px;
 }
 
-/* Left Logo */
 .about-left {
     width: 900px;
     flex: 1;
@@ -170,7 +161,6 @@ position: relative;
     filter: drop-shadow(0 0 12px rgba(255,255,0,0.6));
 }
 
-/* Right Text */
 .about-right {
     flex: 2;
     color: #fff;
@@ -200,7 +190,6 @@ position: relative;
     text-align: left;
 }
 
-/* Button */
 .detail-btn {
     display: inline-block;
     padding: 14px 36px;
@@ -217,7 +206,6 @@ position: relative;
     background: #b200ff;
 }
 
-/* Responsive */
 @media(max-width: 900px) {
     .about-container {
         flex-direction: column;
@@ -229,7 +217,6 @@ position: relative;
         font-size: 48px;
     }
 }
-/* Popup background */
 .popup {
     display: none;
     position: fixed;
@@ -244,7 +231,6 @@ position: relative;
     align-items: center;
 }
 
-/* Popup box */
 .popup-content {
     background: #1a001f;
     padding: 40px;
@@ -256,7 +242,6 @@ position: relative;
     animation: popupShow 0.3s ease;
 }
 
-/* Close button */
 .close-popup {
     font-size: 35px;
     cursor: pointer;
@@ -277,7 +262,6 @@ position: relative;
     color: #e6e6e6;
 }
 
-/* Animation */
 @keyframes popupShow {
     from {
         transform: scale(0.7);
@@ -303,7 +287,7 @@ position: relative;
 .organizer-logos {
     display: flex;
     justify-content: center;
-    gap: 40px; /* khoảng cách giữa 2 logo */
+    gap: 40px; 
     flex-wrap: wrap;
 }
 

@@ -10,14 +10,11 @@
 
 
 <body>
-    <!-- Navigation -->
     <header class="navbar">
         <div class="logo">
             <img src="image/logo2.png" class="about-logo "></div>
-        <!--<div class="menu-icon">☰</div>-->
     </header>   
 
-    <!-- Hero Section -->
     <section class="hero">
         <img src="image/lotus.png" class="lotus-left">
         <img src="image/image-removebg-preview (4).png" class="bird-right">
@@ -33,7 +30,6 @@
             </div>
         </div>
     </section>
-    <!-- About Section -->
     <section class="about">
         <div class="about-container">
 
@@ -63,7 +59,6 @@
             </div>
         </div>
     </section> 
-    <!-- Popup Section -->
     <div id="activity-popup" class="popup">
         <div class="popup-content">
             <span class="close-popup">&times;</span>
@@ -88,7 +83,6 @@
             </p>
         </div>
     </div>
-        <!-- SECTION: Đơn vị tổ chức -->
     <section class="organizer-section">
         <h2>ĐƠN VỊ TỔ CHỨC</h2>
 
@@ -108,17 +102,14 @@ const btn = document.querySelector(".detail-btn");
 const popup = document.getElementById("activity-popup");
 const closeBtn = document.querySelector(".close-popup");
 
-// Mở popup
 btn.onclick = function() {
     popup.style.display = "flex";
 };
 
-// Đóng popup khi bấm dấu X
 closeBtn.onclick = function() {
     popup.style.display = "none";
 };
 
-// Đóng popup khi bấm ra ngoài
 window.onclick = function(e) {
     if (e.target === popup) {
         popup.style.display = "none";
