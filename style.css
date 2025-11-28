@@ -112,22 +112,58 @@ body {
 }
 
 @media(max-width: 768px) {
-    .main-title {
-        font-size: 48px;
+
+    .navbar {
+        top: 10px;
+        left: 15px;
+        right: 15px;
     }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hero {
+        height: 100vh;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .lotus-left {
+        width: 180px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .bird-right {
+        width: 140px;
+        right: 0;
+        top: 120px;
+    }
+
     .sub-title {
-        font-size: 18px;
+        font-size: 22px;
+        margin-bottom: 8px;
     }
+
+    .main-title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
     .labels {
         flex-direction: column;
+        gap: 12px;
     }
-    .lotus-left {
-        width: 200px;
-    }
-    .bird-right {
-        width: 150px;
+
+    .label {
+        width: 100%;
+        max-width: 260px;
+        margin: 0 auto;
     }
 }
+
 .about {
 position: relative;
     width: 100%;
@@ -300,4 +336,68 @@ position: relative;
 
 .org-logo:hover {
     transform: scale(1.08);
+}
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+@media(max-width: 900px) {
+
+    .about {
+        height: auto;
+        padding: 80px 20px;
+        background-size: cover;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        width: 100%;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    .aboutlogo {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .about-title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .quote, .about-text {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .detail-btn {
+        font-size: 16px;
+        padding: 12px 26px;
+    }
+}
+@media(max-width: 768px) {
+    .org-logo {
+        width: 80%;
+        max-width: 280px;
+    }
+}
+@media(max-width: 600px) {
+    .popup-content {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .popup-title {
+        font-size: 26px;
+    }
+
+    .popup-text {
+        font-size: 16px;
+    }
 }
